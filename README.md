@@ -58,3 +58,90 @@ javac *.java
 ```bash
 java Main
 ```
+## Sample Output
+```
+=== PATIENT MANAGEMENT SYSTEM ===
+1. Add Inpatient
+2. Add Outpatient
+3. View All Patients
+4. Search Patient by ID
+5. Exit
+Enter choice: 1
+
+ID: P001
+Name: John Dela Cruz
+Age: 32
+Diagnosis: Pneumonia
+Room Number: 203B
+Inpatient added!
+
+
+=== PATIENT MANAGEMENT SYSTEM ===
+1. Add Inpatient
+2. Add Outpatient
+3. View All Patients
+4. Search Patient by ID
+5. Exit
+Enter choice: 2
+
+ID: P002
+Name: Maria Santos
+Age: 27
+Diagnosis: Migraine
+Appointment Date: 2025-12-10
+Outpatient added!
+
+
+=== PATIENT MANAGEMENT SYSTEM ===
+1. Add Inpatient
+2. Add Outpatient
+3. View All Patients
+4. Search Patient by ID
+5. Exit
+Enter choice: 3
+
+----------------
+[Inpatient]
+ID: P001
+Name: John Dela Cruz
+Age: 32
+Diagnosis: Pneumonia
+Room Number: 203B
+
+----------------
+[Outpatient]
+ID: P002
+Name: Maria Santos
+Age: 27
+Diagnosis: Migraine
+Appointment Date: 2025-12-10
+
+
+=== PATIENT MANAGEMENT SYSTEM ===
+1. Add Inpatient
+2. Add Outpatient
+3. View All Patients
+4. Search Patient by ID
+5. Exit
+Enter choice: 4
+Enter ID: P002
+
+Patient Found!
+[Outpatient]
+ID: P002
+Name: Maria Santos
+Age: 27
+Diagnosis: Migraine
+Appointment Date: 2025-12-10
+
+
+=== PATIENT MANAGEMENT SYSTEM ===
+1. Add Inpatient
+2. Add Outpatient
+3. View All Patients
+4. Search Patient by ID
+5. Exit
+Enter choice: 5
+
+Goodbye!
+```
