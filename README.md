@@ -38,11 +38,13 @@ It stores and manages data records that allows adding different types of patient
 
     Main
     └── runs the menu and calls PatientManager
+
 ## How to run Program
+```bash
 
 **1. Download or clone the project:**
 
---- git clone https://github.com/your-username/Patient-Record-Management-System.git
+git clone https://github.com/your-username/Patient-Record-Management-System.git
 
 **2. Open the project folder:**
 
