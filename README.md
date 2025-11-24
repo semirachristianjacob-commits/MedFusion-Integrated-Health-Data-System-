@@ -28,7 +28,6 @@ It stores and manages data records that allows adding different types of patient
  - **Patient:**  Base class for shared patient attributes. 
  - **Inpatient:**  Subclass storing ward, room, and admission details. 
  - **Outpatient:**  Subclass storing appointment and doctor details. 
- - **PatientManager:**  Handles all CRUD operations for patient records. 
  - **Main:**  Menu interface and program entry point. 
 
  **Text-Based Class Diagram**
@@ -41,7 +40,7 @@ It stores and manages data records that allows adding different types of patient
     └── manages → Patient records
 
     Main
-    └── runs the menu and calls PatientManager
+    └── runs the menu 
 ```
 ## How to run Program
 
@@ -171,4 +170,5 @@ Almarez, Jeanno Benedick A. (24-09622@g.batstate-u.edu.ph)
 
 - It should have a delete option for patient because it is limited
 - Add a database records for permanent records
-- Implement or add GUI 
+- Implement or add GUI
+- Fix the menu for it to become presentable
