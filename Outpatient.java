@@ -1,4 +1,4 @@
-// Outpatient.java
+
 
 public class Outpatient extends Patient {
     private String appointmentDate;
@@ -7,8 +7,6 @@ public class Outpatient extends Patient {
         super(id, name, age, diagnosis);
         this.appointmentDate = appointment Date;
     }
-
-@Override
 
     public void showInfo() {
         System.out.println("[Outpatient]");
@@ -20,4 +18,5 @@ public class Outpatient extends Patient {
     }
 
   }
+
 
