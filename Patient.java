@@ -22,3 +22,4 @@ public abstract class Patient {
 
     public abstract void showInfo();
 }
+
