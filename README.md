@@ -1,7 +1,10 @@
 # IntegratedHealthDataSystem
 ## Description/Overview
+
 It stores and manages data records that allows adding different types of patients (inpatients and outpatients), recording their medical information, and displaying reports on their health status. It is designed to simplify and modernize the way patient records are stored, accessed, and managed. The System provides features to update, search, and display patient records, making it easier for users to track patient progress and generate summarized health reports for clinical review.
+
 ## OOP Concepts Applied
+
 ### Encapsulation
 - All patient attributes (ID, name, age, diagnosis, etc.) are kept private.
 - Access to these attributes is controlled using getters and setters.
@@ -16,6 +19,7 @@ It stores and manages data records that allows adding different types of patient
 ### Abstraction
 - The abstract parent class defines the essential structure and behavior of a patient.
 - Subclasses implement the specific details, hiding unnecessary complexity from the rest of the program.
+
 ## Program Structure
 ### Main Classes and Roles
 
@@ -26,3 +30,5 @@ It stores and manages data records that allows adding different types of patient
 | **Outpatient** | Subclass storing appointment and doctor details. |
 | **PatientManager** | Handles all CRUD operations for patient records. |
 | **Main** | Menu interface and program entry point. |
+
+### Text-Based Class Diagram
