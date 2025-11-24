@@ -34,10 +34,9 @@ public void setDiagnosis (String diagnosis)
 
 { this.diagnosis diagnosis; }
 
-// Polymorphic Abstract Method
-
 public abstract void showInfo();
 
 }
+
 
 
