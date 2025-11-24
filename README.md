@@ -29,3 +29,13 @@ It stores and manages data records that allows adding different types of patient
  - **Main:**  Menu interface and program entry point. 
 
 ### Text-Based Class Diagram
+            [ Patient ]
+        /                   \
+ [ Inpatient ]          [ Outpatient ]
+
+            [ PatientManager ]
+                    |
+                manages
+                    |
+                [ Patient ]
+
