@@ -30,30 +30,30 @@ It stores and manages data records that allows adding different types of patient
 
 ### Text-Based Class Diagram
            +-----------------------+
-|       Patient         |  (Base Class)
-+-----------------------+
-| - patientID           |
-| - name                |
-| - age                 |
-| - diagnosis           |
-+-----------------------+
-| + displayInfo()       |
-| + getters/setters     |
-+-----------------------+
+    |       Patient         |  (Base Class)
+    +-----------------------+
+    | - patientID           |
+    | - name                |
+    | - age                 |
+    | - diagnosis           |
+    +-----------------------+
+    | + displayInfo()       |
+    | + getters/setters     |
+    +-----------------------+
              ^
              |
      -----------------
      |               |
      v               v
-+-------------------+      +--------------------+
-|     Inpatient     |      |     Outpatient     |
-+-------------------+      +--------------------+
-| - wardNumber      |      | - appointmentDate  |
-| - admissionDate   |      | - doctorAssigned   |
-| - roomNumber      |      |                    |
-+-------------------+      +--------------------+
-| + displayInfo()   |      | + displayInfo()    |
-+-------------------+      +--------------------+
+    +-------------------+      +--------------------+
+    |     Inpatient     |      |     Outpatient     |
+    +-------------------+      +--------------------+
+    | - wardNumber      |      | - appointmentDate  |
+    | - admissionDate   |      | - doctorAssigned   |
+    | - roomNumber      |      |                    |
+    +-------------------+      +--------------------+
+    | + displayInfo()   |      | + displayInfo()    |
+    +-------------------+      +--------------------+
 
                 ▲
                 |
