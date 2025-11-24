@@ -151,6 +151,7 @@ Goodbye!
 ```
 ## Author and Acknowledgement
 **Author:**
+
 Semira, Christian Jacob A. (24-01988@g.batstate-u.edu.ph)
 
 Aniel, Clynt Xeus Gabriel G. (24-06970@g.batstate-u.edu.ph)
@@ -159,13 +160,15 @@ Melanay, Rency James I. (24-05189@g.batstate-u.edu.ph)
 
 Almarez, Jeanno Benedick A. (24-09622@g.batstate-u.edu.ph)
 
-**Acknowledgement**
+**Acknowledgement:**
+
 - Instructor   
 - Appriciation to fellow members
 - Java Documentation and online resources
 - AI, Online tutorials, and GitHub tutorials
 
 ## Future Enhancements
+
 - It should have a delete option for patient because it is limited
 - Add a database records for permanent records
 - Implement or add GUI 
