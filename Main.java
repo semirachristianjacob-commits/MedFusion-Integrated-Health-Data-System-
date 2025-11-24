@@ -30,7 +30,6 @@ public class Main {
 
         } while (choice != 5);
     }
-
     private static void addInpatient(Scanner sc) {
         System.out.print("ID: ");
         String id = sc.nextLine();
