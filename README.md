@@ -40,22 +40,17 @@ It stores and manages data records that allows adding different types of patient
     └── runs the menu and calls PatientManager
 ## How to run Program
 
-Download or clone the project:
+**1. Download or clone the project:**
 
 git clone https://github.com/your-username/Patient-Record-Management-System.git
-
-
-Open the project folder:
+**2. Open the project folder:**
 
 cd Patient-Record-Management-System/src
 
-
-Compile all Java files:
+**3. Compile all Java files:**
 
 javac *.java
-
-
-Run the program:
+**4. Run the program:**
 
 java Main
   
