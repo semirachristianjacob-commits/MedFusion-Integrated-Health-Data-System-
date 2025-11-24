@@ -9,13 +9,16 @@ It stores and manages data records that allows adding different types of patient
 - All patient attributes (ID, name, age, diagnosis, etc.) are kept private.
 - Access to these attributes is controlled using getters and setters.
 - Encapsulation ensures data security and prevents unintended modification of patient details.
+  
 **Inheritance**
 - A parent class `Patient` provides common attributes and methods.
 - Subclasses `Inpatient` and `Outpatient` inherit this structure and add their own specific fields (e.g., room number, consultation date).
 - This reduces code duplication and promotes reusability.
- **Polymorphism**
+
+**Polymorphism**
 - Methods like `displayInfo()` are overridden by subclasses to show details unique to each patient type.
 - The system can handle different patient types using a common interface, demonstrating runtime polymorphism.
+
 **Abstraction**
 - The abstract parent class defines the essential structure and behavior of a patient.
 - Subclasses implement the specific details, hiding unnecessary complexity from the rest of the program.
