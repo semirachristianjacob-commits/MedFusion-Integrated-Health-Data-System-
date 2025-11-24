@@ -59,6 +59,7 @@ javac *.java
 java Main
 ```
 ## Sample Output
+This is how the program looks like:
 ```
 === PATIENT MANAGEMENT SYSTEM ===
 1. Add Inpatient
@@ -145,3 +146,5 @@ Enter choice: 5
 
 Goodbye!
 ```
+## Author
+Semira, Christian Jacob A.(24-01988@g.batstate-u.edu.ph)
