@@ -38,3 +38,14 @@ It stores and manages data records that allows adding different types of patient
 
     Main
     └── runs the menu and calls PatientManager
+## How to run Program
+
+1. Install **Java JDK 8 or later**.
+2. Save the following Java files in one folder:
+   - Patient.java  
+   - Inpatient.java  
+   - Outpatient.java  
+   - PatientManager.java  
+   - Main.java  
+3. Open Terminal or Command Prompt.
+4. Navigate to the project directory:
