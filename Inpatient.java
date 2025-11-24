@@ -16,4 +16,3 @@ public class Inpatient extends Patient {
         System.out.println("Room Number: " + roomNumber);
     }
 }
-
