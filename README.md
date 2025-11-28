@@ -155,7 +155,7 @@ Almarez, Jeanno Benedick A. (24-09622@g.batstate-u.edu.ph)
 
 **Acknowledgement:**
 
-- Instructor   
+- Instructor for instructing OOP
 - Appriciation to fellow members
 - Java Documentation and online resources
 - AI, Online tutorials, and GitHub tutorials
