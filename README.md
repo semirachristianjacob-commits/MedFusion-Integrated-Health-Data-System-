@@ -140,7 +140,7 @@ Appointment Date: 2025-12-10
 5. Exit
 Enter choice: 5
 
-Goodbye!
+Code Exited!
 ```
 ## Author and Acknowledgement
 **Author:**
@@ -164,5 +164,5 @@ Almarez, Jeanno Benedick A. (24-09622@g.batstate-u.edu.ph)
 
 - It should have a delete option for patient because it is limited
 - Add a database records for permanent records
-- Implement or add GUI
+- Implement or add GUI 
 - Fix the menu for it to become presentable
